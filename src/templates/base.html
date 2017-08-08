@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% block head_tittle %}Try Django with Python 3{% endblock head_tittle %}</title>
+    {% include 'snippets/css.html' %}
+</head>
+
+<body>
+    {% include 'snippets/nav.html' %}
+    <!-- Ini untuk memanggil Template / Tag navbar yang disimpan secara terpisah -->
+
+    <div class="container">
+        {% block content %}{% endblock content %}
+    </div>
+    {% include 'snippets/js.html' %}
+</body>
+
+</html>

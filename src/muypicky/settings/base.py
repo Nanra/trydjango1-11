@@ -60,7 +60,7 @@ ROOT_URLCONF = 'muypicky.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')], #lokasi Path untuk memanggil Template
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Lokasi Path untuk memanggil Template
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
